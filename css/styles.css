@@ -1,0 +1,134 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, form, label, input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-image: url("https://t3.ftcdn.net/jpg/02/82/98/04/360_F_282980424_InJLdo8nrNJnxqyFy4pfIKSUOdMUIFcQ.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-top {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-top h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header-top p {
+  font-size: 18px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  border-right: 1px solid #fff;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.project-categories {
+  margin-bottom: 10px;
+}
+
+.project-categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.project-categories ul li {
+  margin-right: 10px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.project-slide {
+  flex: 0 0 auto;
+  width: 400px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+  

@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Phelps - Full Stack Developer</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric D Phelps Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
     <header>
-        <h1>Welcome to my showcase</h1>
+      <div class="header-content">
+        <div class="header-top">
+          <h1>Eric D Phelps</h1>
+          <p>Aspiring Software Engineer</p>
+          <p>Achieving greatness through creation</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi there! I'm Eric Phelps, a student at TLG Learning, with a
+          background as a Marine veteran and military contractor for the
+          Airforce. I recently pursued my passion for video game programming and
+          earned an associate's degree in the field. Currently, I'm attending
+          TLG Learning to further expand my knowledge of software development. I
+          have a strong drive to create things that make life easier or more
+          enjoyable for everyday people. In addition to software development, I
+          enjoy woodworking, gardening, and game development.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <nav class="project-categories">
+          <ul>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#cplus">C++</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#unreal">Unreal Engine</a></li>
+          </ul>
+        </nav>
+
+        <div class="carousel" id="javascript-carousel">
+          <div id="javaScript" class="project-slide">
+            <h3>JavaScript Projects</h3>
+            <p>
+              <!-- Add JavaScript project descriptions here -->
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel" id="java-carousel">
+          <div id="java" class="project-slide">
+            <h3>Java Projects</h3>
+            <p>
+              <!-- Add Java project descriptions here -->
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel" id="cplus-carousel">
+          <div id="cplus" class="project-slide">
+            <h3>C++ Projects</h3>
+            <p>
+              <!-- Add C++ project descriptions here -->
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel" id="python-carousel">
+          <div id="python" class="project-slide">
+            <h3>Python Projects</h3>
+            <p>
+              <!-- Add Python project descriptions here -->
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel" id="unreal-carousel">
+          <div id="unreal" class="project-slide">
+            <h3>Unreal Engine Projects</h3>
+            <p>
+              <!-- Add Unreal Engine project descriptions here -->
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Eric Phelps</p>
+    </footer>
+  </body>
 </html>
